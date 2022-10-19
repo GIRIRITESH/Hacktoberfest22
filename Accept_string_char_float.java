@@ -3,20 +3,23 @@ class Accept_string_char_float
 {
 	public static void main(String args[]) throws IOException
 	{
-		String a;
-		int b;
-		float c;
+		String x;
+		int y;
+		float z;
 		try{
 			DataInputStream p = new DataInputStream(System.in);
 			System.out.println("Enter the string : ");
-			a = p.readLine();
-			System.out.println("The entered string is : "+a);
+			//entering a string
+			x = p.readLine();
+			System.out.println("The entered string is : "+x);
 			System.out.println("Enter an Integer value : ");
-			b = Integer.parseInt(p.readLine());
-			System.out.println("The entered integer is : "+b);
+			//entering an integer value
+			y = Integer.parseInt(p.readLine());
+			System.out.println("The entered integer is : "+y);
 			System.out.println("Enter an Float value : ");
-			c = Float.parseFloat(p.readLine());
-			System.out.println("The entered float value is : "+c);
+			//entering a float value
+			z = Float.parseFloat(p.readLine());
+			System.out.println("The entered float value is : "+z);
 		}
 		catch (Exception e) {
 			System.out.println("Error!!");
