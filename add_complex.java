@@ -1,3 +1,5 @@
+//create a class 
+
 class complex{
 	double real;
 	double imag;
@@ -28,6 +30,7 @@ class add_complex{
 		c1.show();
 		System.out.println("c2 = ");
 		c2.show();
+		//add two complex numbers
 		System.out.println("Sum = ");
 		c3.show();
 	}
