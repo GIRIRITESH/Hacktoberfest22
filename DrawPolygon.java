@@ -4,9 +4,9 @@ import javax.swing.*;
 public class DrawPolygon extends JPanel {
  
   public void paintComponent(Graphics g) {
-    int [] x = {10,30,40,50,110,140};
-    int [] y = {140,110,50,40,30,10};
-    g.drawPolygon(x, y, 6);
+    int [] x = {11,31,41,51,111,141};
+    int [] y = {142,112,52,42,32,12};
+    g.drawPolygon(x, y,7);
   }
  
   public static void main(String[] args) {
